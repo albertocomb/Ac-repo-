@@ -1,0 +1,104 @@
+[
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "Lamy Safari",
+      "body": "Neon edition"
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "Kaweco Sport",
+      "body": "Brown edition"
+    },
+    {
+      "userId": 1,
+      "id": 3,
+      "title": "Twsbi eco",
+      "body": "coral edition"
+    },
+    {
+      "userId": 1,
+      "id": 4,
+      "title": "Twsbi go",
+      "body": "transparent"
+    },
+    {
+      "userId": 1,
+      "id": 5,
+      "title": "Conklin All-American",
+      "body": "wood limited edition"
+    },
+    {
+      "userId": 1,
+      "id": 6,
+      "title": "Kaweco sport pink edition",
+      "body": "collectors edition"
+    },
+    {
+      "userId": 1,
+      "id": 7,
+      "title": "Lamy vista",
+      "body": "transparent"
+    },
+    {
+      "userId": 1,
+      "id": 8,
+      "title": "Lamy Nexx",
+      "body": "blue color"
+    },
+    {
+      "userId": 1,
+      "id": 9,
+      "title": "Faber-castell loom",
+      "body": "green"
+    },
+    {
+      "userId": 1,
+      "id": 10,
+      "title": "Cross bailey light",
+      "body": "Black"
+    },
+    {
+      "userId": 2,
+      "id": 11,
+      "title": "Noodlers creaper",
+      "body": "coral and pink"
+    },
+    {
+      "userId": 2,
+      "id": 12,
+      "title": "Platinum plaisir",
+      "body": "nova orange"
+    },
+    {
+      "userId": 2,
+      "id": 13,
+      "title": "Platinum preppy",
+      "body": "blue"
+    },
+    {
+      "userId": 2,
+      "id": 14,
+      "title": "Kaweco perkeo",
+      "body": "old chambry"
+    },
+    {
+      "userId": 2,
+      "id": 15,
+      "title": "Lamy all-star",
+      "body": "bronze"
+    },
+    {
+      "userId": 2,
+      "id": 16,
+      "title": "Online slope",
+      "body": "blue"
+    },
+    {
+      "userId": 2,
+      "id": 17,
+      "title": "Parker Jotter fountain pen",
+      "body": "black"
+    }
+  ]

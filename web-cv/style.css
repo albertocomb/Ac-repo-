@@ -1,0 +1,278 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 97vw;
+  height: 89vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  padding: 10px;
+
+}
+
+/* Style the header */
+.header {
+  background-color: #BDF3FF;
+  padding: 100px;
+  text-align: center;
+  border-width: 20%;
+  text-rendering: auto;
+  font-stretch: normal;
+
+}
+
+.contenido {
+  background-color: #1CFAD6;
+  padding: 100px;
+  text-align: center;
+  border-width: 20%;
+  font-stretch: light;
+  font-family: "Fira Sans", sans-serif;
+
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: visible;
+  background-color: white;
+  padding-bottom: 2;
+  width: 30vw;
+  height: 6vh;
+  justify-content: space-between;
+  position: fixed;
+  border-radius: 5px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: navajowhite;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #63E8DF;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: ;
+  padding: 40px;
+  background-color: khaki;
+}
+
+.estudios {
+  float: left;
+  padding: 40px;
+  background-color: #03DCE6;
+}
+
+.footer {
+  background-color:#8EE6C8;
+  padding: 2px;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.timeline {
+  margin: 0 auto;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr;
+  font-family: "Fira Sans", sans-serif;
+  color: black;
+  background-color: #7FEBE5;
+  border-width: 20%;
+
+}
+
+.timeline__component {
+  margin: 0 20px 20px 20px;
+}
+
+.timeline__component--bg {
+  padding: 1.5em;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* LEAVE TILL LAST */
+.timeline__component--bottom {
+  margin-bottom: 0;
+}
+
+.timeline__middle {
+  position: relative;
+  background: black;
+}
+
+.timeline__point {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 50%;
+}
+
+/* LEAVE TILL LAST */
+.timeline__point--bottom {
+  top: initial;
+  bottom: 0;
+}
+
+.timeline__date--right {
+  text-align: right;
+}
+
+.timeline__title {
+  margin: 0;
+  font-size: 1.15em;
+  font-weight: normal;
+}
+
+.timeline__paragraph {
+  line-height: 1.5;
+}
+
+.contacto {
+  background-color: #1c9261;
+}
+
+.skills {
+  background-color:rgb(165, 212, 165);
+  color: black;
+}
+
+.skills li {
+  margin: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bar{
+  background-color: rgb(133, 207, 209);
+  display: block;
+  height: 2px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #ffffffb3;
+}
+
+.bar span {
+  height: 2px;
+  float: left;
+  background: #000000;
+}
+
+.html{
+  width: 90%;
+}
+
+.css {
+  width: 70%;
+}
+
+.ux{
+  width: 80%;
+}
+
+.italiano{
+  width: 100%;
+}
+
+.ingles{
+  width: 60%;
+}
+
+.Javascript{
+  width: 50%;
+}
+
+input[type=text], input[type=email], select, textarea {
+  font-size: 17px;
+  line-height: 1.23543;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  font-family: "Fira Sans", sans-serif;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+  width: 100%;
+  height: 3.3em;
+  margin-bottom: 14px;
+  padding-top: 18px;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: #333;
+  text-align: left;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  background-clip: padding-box;
+}
+input[type=text]:hover, input[type=email]:hover, textarea:hover {
+  background-color: #63E8DF;
+  font-family: "Fira Sans", sans-serif;
+}
+
+input[type=submit] {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    background-color: #75E6B5;
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    padding: 13px 15px 14px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+
+
+.contact-form-container {
+
+
+  background-color:#8EE6C8;
+  padding: 20px;
+
+  border: 1px solid #d6d6d6;
+  font-family: "Fira Sans", sans-serif;
+  font-stretch: normal;
+
+}
+
+.contact-form-container h1{
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Fira Sans", sans-serif;
+  font-stretch: normal;
+}
