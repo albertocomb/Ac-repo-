@@ -1,0 +1,13 @@
+.checkbox-container {
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(116, 108, 255) 100%);
+    border: 2px solid rgb(13, 103, 206);
+    padding: 10px;
+    width: 20%;
+    position: fixed;
+    text-align: center;
+}
+.checkbox {
+    margin: auto; 
+    width: 20%;
+    padding: 10px;
+}

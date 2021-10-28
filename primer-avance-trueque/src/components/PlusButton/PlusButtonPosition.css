@@ -1,0 +1,26 @@
+* {box-sizing: border-box;}
+body {
+  font: 14px/18px Arial, sans-serif;
+  margin: 5;
+}
+.container {
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+.container .btn-holder {
+  justify-content: flex-end;
+  display: flex;
+}
+.container .btn-holder button {
+    height: 80px;
+    line-height: 80px;  
+    width: 80px;  
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}

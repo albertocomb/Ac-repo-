@@ -1,0 +1,28 @@
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: skyblue;
+    font-family: sans-serif;
+}
+
+.button{
+  padding: 7px 12px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #049faa;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #b3c2b3}
+
+.button:active {
+  background-color: #ade2af;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
